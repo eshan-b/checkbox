@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "322687793854",
+    "firebase_url": "https://checkbox-dc99e.firebaseio.com",
+    "project_id": "checkbox-dc99e",
+    "storage_bucket": "checkbox-dc99e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322687793854:android:22539929f6fe0c01a7bcef",
+        "android_client_info": {
+          "package_name": "com.example.checkbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322687793854-a6bhcvqq6tbmoimkah2okrgkhndp12ce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.checkbox",
+            "certificate_hash": "7d1a3e69df174d987668704049f5eb69b7fae809"
+          }
+        },
+        {
+          "client_id": "322687793854-qbumgtaes6tsouvk0m0g9mbnto4l9q3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgoMHYjzRLqh4ea1MJGPeDfwH9PEe0_TI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322687793854-qbumgtaes6tsouvk0m0g9mbnto4l9q3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
