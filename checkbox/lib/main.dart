@@ -36,9 +36,41 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: [
           Container(
-            alignment: Alignment.center,
-            child: Text('Hello World')
+            padding: EdgeInsets.all(15),
+            child: Image(
+              alignment: Alignment.center,
+              image: AssetImage("assets/images/checkbox_transparent.png")
+            ),
           ),
+
+          SizedBox(height: 20),
+
+          Text(
+            "Say \"hello\" to the\nfuture of\nproductivity.",
+            style: TextStyle(
+              color: Color(0xff038841),
+              fontSize: 26
+            ),
+          ),
+
+          SizedBox(height: 50),
+
+          RaisedButton.icon(
+            onPressed: () => {},
+            
+            icon: Image(
+              height: 10,
+              image: AssetImage("assets/images/checkbox_transparent.png"),
+            ),
+
+            label: Text(
+              "Sign in with Google",
+              style: TextStyle(
+                color: Color(0xff707070),
+                fontSize: 18
+              ),
+            ),
+          )
         ],
       )
     );
